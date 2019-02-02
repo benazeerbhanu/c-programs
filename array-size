@@ -1,0 +1,10 @@
+#include<stdio.h>
+main()
+{
+	int arr[]={10,20,30,49};
+	int n,r;
+	n=sizeof(arr);
+	r=n/sizeof(int);
+	printf("%d",r);
+	
+}
