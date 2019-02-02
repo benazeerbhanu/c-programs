@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int a[]={1,2,34,9,6,6,8};
+	int n,r;
+	n=sizeof(a);
+	printf("%d\n",n);
+	n=sizeof(a)/sizeof(int);
+	r=a[n/2];
+	printf("%d",r);
+}
